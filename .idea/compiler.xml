@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stu_club_subject_api" />
+        <module name="stu_club_application_controller" />
+        <module name="stu_club_application_mq" />
+        <module name="stu_club_application_job" />
+        <module name="stu_club_starter" />
+        <module name="stu_club_infra" />
+        <module name="stu_club_domain" />
+        <module name="stu_club_common" />
+        <module name="stu_club_application" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

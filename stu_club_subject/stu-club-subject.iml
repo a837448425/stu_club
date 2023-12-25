@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/study-club-subject">
+      <sourceFolder url="file://$MODULE_DIR$/stu-club-subject/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stu-club-subject/src/main/resources" type="java-resource" />
+    </content>
+  </component>
+</module>
