@@ -31,7 +31,7 @@ public class SubjectCategoryDomainServiceImpl implements SubjectCategoryDomainSe
     @Override
     public void add(SubjectCategoryBO subjectCategoryBO) {
         if(log.isInfoEnabled()){
-            log.info("SubjectCategoryController.add().bo:{}", JSON.toJSONString(subjectCategoryBO));
+            log.info("SubjectCategoryDomainServiceImpl.add().bo:{}", JSON.toJSONString(subjectCategoryBO));
         }
         SubjectCategory subjectCategory = SubjectCategoryConverter
                 .INSANCE.convertBoToCategory(subjectCategoryBO);
@@ -47,7 +47,7 @@ public class SubjectCategoryDomainServiceImpl implements SubjectCategoryDomainSe
         List<SubjectCategoryBO> boList = SubjectCategoryConverter
                 .INSANCE.convertBoToCategory(subjectCategoryList);
         if (log.isInfoEnabled()){
-            log.info("SubjectCategoryController.queryPrimaryCategory().boList:{}", JSON.toJSONString(boList));
+            log.info("SubjectCategoryDomainServiceImpl.queryPrimaryCategory().boList:{}", JSON.toJSONString(boList));
         }
         return boList;
     }
@@ -61,7 +61,7 @@ public class SubjectCategoryDomainServiceImpl implements SubjectCategoryDomainSe
         List<SubjectCategoryBO> boList = SubjectCategoryConverter
                 .INSANCE.convertBoToCategory(subjectCategoryList);
         if (log.isInfoEnabled()){
-            log.info("SubjectCategoryController.queryCategory().boList:{}", JSON.toJSONString(boList));
+            log.info("SubjectCategoryDomainServiceImpl.queryCategory().boList:{}", JSON.toJSONString(boList));
         }
         return boList;
     }
